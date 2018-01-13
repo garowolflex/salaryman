@@ -3,7 +3,7 @@ class Work < ApplicationRecord
 
   validates :time, presence: true
 
-  enum :category, {
+  enum category: {
     work: 0,
   }
 end
